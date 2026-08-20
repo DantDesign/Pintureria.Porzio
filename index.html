@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Pinturería Porzio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+<header>
+    <!-- logo corporativo -->
+    <div class="logo-container">
+        <img src="images/logo0.png" alt="Pinturería Porzio" class="brand-logo">
+    </div>
+    <p>Todo lo que necesitás para renovar tus espacios</p>
+    
+    <!-- Botones de Filtro -->
+    <div class="filter-container">
+        <button class="btn-filter active" data-category="todos">Todos</button>
+        <button class="btn-filter" data-category="latex">Látex</button>
+        <button class="btn-filter" data-category="sintetico">Sintéticos</button>
+        <button class="btn-filter" data-category="revestimiento">Revestimientos</button>
+        <button class="btn-filter" data-category="impermeable">Impermeabilizantes</button>
+    </div>
+</header>
+
+<div class="product-grid" id="productGrid">
+
+    <!-- ================= PRODUCTO 1 ================= -->
+    <div class="product-card" data-category="latex">
+
+        <div class="product-image-container">
+            <span class="category-badge">Látex</span>
+            <img class="product-image" src="images/latex.png" alt="Látex Interior">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Corcel Látex Interior Premium
+            </div>
+
+            <div class="product-description">
+                Pintura acrílica mate de alto poder cubritivo. Lavable,
+                antihongos y de bajo olor. Ideal para livings y dormitorios.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="1 Litro">1 Litro</option>
+                        <option value="4 Litros">4 Litros</option>
+                        <option value="10 Litros">10 Litros</option>
+                        <option value="20 Litros">20 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Blanco">Blanco</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 2 ================= -->
+    <div class="product-card" data-category="sintetico">
+
+        <div class="product-image-container">
+            <span class="category-badge">Sintético</span>
+            <img class="product-image" src="images/sintetico.webp" alt="Esmalte Sintético">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Polielux Esmalte Sintético Triple Acción
+            </div>
+
+            <div class="product-description">
+                Convertidor, antioxido y esmalte. Excelente terminación y
+                protección para maderas y metales al exterior.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="1 Litro">1 Litro</option>
+                        <option value="4 Litros">4 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Blanco Brillante">Blanco Brillante</option>
+                        <option value="Blanco Satinado">Blanco Satinado</option>
+                        <option value="Negro Brillante">Negro Brillante</option>
+                        <option value="Negro Satinado">Negro Satinado</option>
+                        <option value="Verde Inglés">Verde Inglés</option>
+                        <option value="Bermellon">Bermellon</option>
+                        <option value="Azul Marino">Azul Marino</option>
+                        <option value="Amarillo">Amarillo</option>
+                        <option value="Gris">Gris</option>
+                        <option value="Gris Espacial">Gris Espacial</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 3 ================= -->
+    <div class="product-card" data-category="revestimiento">
+
+        <div class="product-image-container">
+            <span class="category-badge">Revestimiento</span>
+            <img class="product-image" src="images/revestimiento.png" alt="Revestimiento Plástico">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Corcel Revestimiento Plastico Texturado
+            </div>
+
+            <div class="product-description">
+                Diseñado para proteger y decorar paredes tanto en interiores
+                como en frentes. Reemplaza el revoque fino y la pintura.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Kilos:</label>
+                    <select class="select-size">
+                        <option value="30 Kg">30 Kilos</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Color Preparado">Color Preparado</option>
+                        <option value="Gris Tormenta">Gris Tormenta</option>
+                        <option value="Beige">Beige</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 4 ================= -->
+    <div class="product-card" data-category="impermeable">
+
+        <div class="product-image-container">
+            <span class="category-badge">Impermeabilizante</span>
+            <img class="product-image" src="images/frentes.png" alt="Látex Frente">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Corcel Impermeabilizante Frentes y Muros
+            </div>
+
+            <div class="product-description">
+                Máxima resistencia climática, película elástica impermeable
+                que acompaña los movimientos estructurales evitando grietas.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="20 Litros">20 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Blanco">Blanco</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 5 ================= -->
+    <div class="product-card" data-category="sintetico">
+
+        <div class="product-image-container">
+            <span class="category-badge">Sintético</span>
+            <img class="product-image" src="images/danzke.webp" alt="Petrilac Danzke">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Petrilac Danzke Classic para Maderas
+            </div>
+
+            <div class="product-description">
+                Protector para maderas de interiores y exteriores.
+                No se cuartea ni descascara, permitiendo que la madera respire
+                mientras repele el agua y frena los rayos UV.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="1 Litro">1 Litro</option>
+                        <option value="4 Litros">4 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Natural">Natural</option>
+                        <option value="Cristal">Cristal</option>
+                        <option value="Cedro">Cedro</option>
+                        <option value="Roble">Roble</option>
+                        <option value="Nogal">Nogal</option>
+                        <option value="Caoba">Caoba</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 6 ================= -->
+    <div class="product-card" data-category="latex">
+
+        <div class="product-image-container">
+            <span class="category-badge">Látex</span>
+            <img class="product-image" src="images/PROintext.webp" alt="PRO">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Casablanca PRO Látex Interior y Exterior
+            </div>
+
+            <div class="product-description">
+                Látex acrílico de uso profesional diseñado para proteger y
+                decorar paredes. Ofrece gran poder cubritivo, acabado mate
+                y propiedades antihongos.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="1 Litro">1 Litro</option>
+                        <option value="4 Litros">4 Litros</option>
+                        <option value="10 Litros">10 Litros</option>
+                        <option value="20 Litros">20 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Blanco">Blanco</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 7 ================= -->
+    <div class="product-card" data-category="impermeable">
+
+        <div class="product-image-container">
+            <span class="category-badge">Impermeabilizante</span>
+            <img class="product-image" src="images/membrana.png" alt="Membrana">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Corcel Membrana en Pasta Impermeable
+            </div>
+
+            <div class="product-description">
+                Forma una barrera protectora contra filtraciones y humedad.
+                Ideal para techos y terrazas con alta exposición climática.
+                Mayor elasticidad, adherencia y resistencia.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="20 Litros">20 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Blanco">Blanco</option>
+                        <option value="Rojo Teja">Rojo Teja</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ================= PRODUCTO 8 ================= -->
+    <div class="product-card" data-category="sintetico">
+
+        <div class="product-image-container">
+            <span class="category-badge">Sintético</span>
+            <img class="product-image" src="images/sellagresAguarras.jpeg" alt="Petrilac Sellagres">
+        </div>
+
+        <div class="product-info">
+
+            <div class="product-title">
+                Petrilac Sellagres para Ladrillos
+            </div>
+
+            <div class="product-description">
+                Protector al solvente con terminación satinada para ladrillos,
+                tejas y cerámicos. Se aplica con pincel en dos manos y protege
+                contra la humedad, los hongos y los rayos UV.
+            </div>
+
+            <div class="product-meta">
+                <div class="product-price">Consultar</div>
+            </div>
+
+            <div class="product-options">
+
+                <div class="option-field">
+                    <label>Litros:</label>
+                    <select class="select-size">
+                        <option value="1 Litro">1 Litro</option>
+                        <option value="4 Litros">4 Litros</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Color:</label>
+                    <select class="select-color">
+                        <option value="Natural">Natural</option>
+                        <option value="Ceramico">Ceramico</option>
+                    </select>
+                </div>
+
+                <div class="option-field">
+                    <label>Cant:</label>
+                    <input type="number" class="input-qty" value="1" min="1" max="30">
+                </div>
+
+            </div>
+
+            <button class="btn-add">
+                <i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp
+            </button>
+
+        </div>
+    </div>
+
+</div> <!-- Cierra product-grid -->
+
+</div> <!-- Cierra container -->
+
+<!-- Footer Institucional -->
+<footer class="main-footer">
+    <div class="footer-container">
+        
+        <!-- Columna 1: Dirección -->
+        <div class="footer-column">
+            <h3>Nuestra Sucursal</h3>
+            <i class="fas fa-location-dot"></i>
+            <p class="footer-text">Av. R. de Escalada 873, Lanús Oeste</p>
+            <p class="footer-subtext">Horarios: Lun a Vie 9 a 12.30hs | 14.30 a 18.30hs</p>
+            <p class="footer-subtext">Sáb 9 a 13.30hs</p>
+        </div>
+
+        <!-- Columna 2: Teléfono -->
+        <div class="footer-column">
+            <h3>Contacto Directo</h3>
+            <i class="fab fa-whatsapp"></i> 
+            <a href="https://wa.me/541134972099" target="_blank" class="footer-link-icon">
+                +54 11 3497-2099
+            </a>
+            <a href="https://wa.me/541133567693" target="_blank" class="footer-link-icon">
+                </i> +54 11 3356-7693
+            </a>
+            <p class="footer-subtext">Consultas técnicas y presupuestos</p>
+        </div>
+
+        <!-- Columna 3: Redes Sociales -->
+        <div class="footer-column">
+            <h3>Seguinos</h3>
+            <i class="fab fa-instagram"></i> 
+            <a href="https://www.instagram.com/pintureriaporzio/" target="_blank" class="footer-link-icon instagram-color">
+                @pintureriaporzio
+            </a>
+            <p class="footer-subtext">Enterate de ofertas y nuevas tendencias</p>
+        </div>
+    </div>
+
+    <!-- Barra de Derechos Reservados al final -->
+    <div class="footer-bottom">
+        <p>© 2026 Pinturería Porzio. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
