@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- LÓGICA DE ENVÍO PRE-FORMATEADO A WHATSAPP ----
     const actionButtons = document.querySelectorAll('.btn-add');
-    const NÚMERO_WHATSAPP = "5491159379723";
+    const NÚMERO_WHATSAPP = "5491133567693";
     
     actionButtons.forEach(btn => {
         btn.addEventListener('click', function(e) {
@@ -54,7 +54,7 @@ const quantity = productCard.querySelector('.input-qty').value;
             }
             
             // Construir el mensaje comercial detallado
-            const textoMensaje = `Hola Pinturería Porzio! 👋 Me interesa realizar un pedido:\n\n🎨 *Producto:* ${title}\n📦 *Presentación:* ${size}\n🌈 *Color elegido:* ${selectedColor}\n🔢 *Cantidad:* ${quantity} unidad(es)\n💰 *Precio unitario:* ${price}\n\n¿Me confirmarían disponibilidad y formas de pago? ¡Muchas gracias!`;
+            const textoMensaje = `Hola Pinturería Porzio!  Me interesa realizar un pedido:\n\n *Producto:* ${title}\n *Presentación:* ${size}\n *Color elegido:* ${selectedColor}\n *Cantidad:* ${quantity} unidad(es)\n *Precio unitario:* ${price}\n\n¿Me confirmarían disponibilidad y formas de pago? ¡Muchas gracias!`;
             
             const textoCodificado = encodeURIComponent(textoMensaje);
 
