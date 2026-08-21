@@ -54,7 +54,7 @@ const quantity = productCard.querySelector('.input-qty').value;
             }
             
             // Construir el mensaje comercial detallado
-            const textoMensaje = `Hola Pinturería Porzio!  Me interesa realizar un pedido:\n\n *Producto:* ${title}\n *Presentación:* ${size}\n *Color elegido:* ${selectedColor}\n *Cantidad:* ${quantity} unidad(es)\n *Precio unitario:* ${price}\n\n¿Me confirmarían disponibilidad y formas de pago? ¡Muchas gracias!`;
+            const textoMensaje = `Hola Pinturería Porzio! Me interesa realizar un pedido:\n\n • *Producto:* ${title}\n • *Presentación:* ${size}\n • *Color elegido:* ${selectedColor}\n • *Cantidad:* ${quantity} unidad(es)\n • *Precio unitario:* ${price}\n\n¿Me confirmarían disponibilidad y formas de pago? ¡Muchas gracias!`;
             
             const textoCodificado = encodeURIComponent(textoMensaje);
 
