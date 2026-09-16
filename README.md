@@ -8,7 +8,7 @@ Un catálogo web interactivo, dinámico y adaptivo (responsive) diseñado para *
 *   **Selector de Opciones:** Permite a los usuarios elegir la presentación (litros/kilos), colores disponibles y cantidad requerida para cada artículo.
 *   **Conversión Directa a WhatsApp:** Botón de consulta automatizado que extrae los datos seleccionados por el cliente y genera un mensaje preformateado listo para enviar al vendedor.
 *   **Interfaz Moderna:** Diseño limpio basado en tarjetas de producto con badges de categoría e iconografía integrada mediante FontAwesome.
-*   **Asistente de IA Integrado** Acceso 24/7 incorporado mediante un botón flotante interactivo en la esquina inferior derecha, siempre accesible sin interrumpir la navegación.
+*   **Asistente de IA Integrado:** Acceso 24/7 incorporado mediante un botón flotante interactivo en la esquina inferior derecha, siempre accesible sin interrumpir la navegación.
 
 ## 🛠️ Tecnologías Utilizadas
 
