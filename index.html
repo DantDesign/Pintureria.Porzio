@@ -782,17 +782,18 @@
 
 <script type="text/javascript">
   (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t);
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
         window.voiceflow.chat.load({
           verify: { projectID: '6aaacab51552056d0c791782' },
-          url: 'https://general-runtime.voiceflow.com',
+          url: 'https://voiceflow.com',
           versionID: 'production'
         });
       }
       v.src = "https://voiceflow.com"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
 </script>
+
 
 
 
